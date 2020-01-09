@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LoveVin的博客</title>
+    <link>https://lovevin.github.io/</link>
+    <description>Recent content on LoveVin的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>LoveVin</copyright>
+    <lastBuildDate>Wed, 08 Jan 2020 12:38:04 +0800</lastBuildDate>
+    
+        <atom:link href="https://lovevin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于</title>
+      <link>https://lovevin.github.io/about/</link>
+      <pubDate>Wed, 08 Jan 2020 12:38:04 +0800</pubDate>
+      
+      <guid>https://lovevin.github.io/about/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>如何使用GitHub Pages预览 HTML</title>
+      <link>https://lovevin.github.io/post/how-to-use-githubpages/</link>
+      <pubDate>Wed, 08 Jan 2020 12:15:31 +0800</pubDate>
+      
+      <guid>https://lovevin.github.io/post/how-to-use-githubpages/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>如何使用GitHub直接预览Markdown文件</title>
+      <link>https://lovevin.github.io/post/github-preview-markdown/</link>
+      <pubDate>Wed, 08 Jan 2020 12:15:31 +0800</pubDate>
+      
+      <guid>https://lovevin.github.io/post/github-preview-markdown/</guid>
+      
+        <description>&lt;p&gt;GitHub 是可以直接预览 markdown 文件的，也就是说可以直接在 GitHub 上写博客，具体操作如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 GitHub 新建一个仓库，并在新建的仓库点击新创建一个 README.md 文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo11.JPG&#34; alt=&#34;这图片&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;然后用 markdown 语法写 README.md 文件，可一边写，一边右边 preview 预览效果。写完后保存，即可用该 markdown 文件所在的网址发给别人看自己的博客。同时也可在其他地方写好 markdown 文件，push 进 GitHub 仓库。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo12.JPG&#34; alt=&#34;这图片&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo13.JPG&#34; alt=&#34;这图片&#34;&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>如何用hugo搭建个人博客</title>
+      <link>https://lovevin.github.io/post/how-to-use-hugo/</link>
+      <pubDate>Wed, 08 Jan 2020 11:54:33 +0800</pubDate>
+      
+      <guid>https://lovevin.github.io/post/how-to-use-hugo/</guid>
+      
+        <description>&lt;h3 id=&#34;1hugo-&#34;&gt;1.hugo 的安装&lt;/h3&gt;
+&lt;h4 id=&#34;heading&#34;&gt;方法一&lt;/h4&gt;
+&lt;p&gt;去 hugo 官网按照教程找对应版本的安装方法 &lt;a href=&#34;https://gohugo.io/getting-started/installing&#34;&gt;hugo 各系统安装&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;-windows-&#34;&gt;其他 windows 安装方法&lt;/h4&gt;
+&lt;p&gt;直接在 hugo 的 github 里下载资源包&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;hugo-github-release&lt;/a&gt;，在其中找到 windows 版本的 Assets，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo1.JPG&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+&lt;p&gt;下载后解压到自定义的软件文件夹内，然后解压后的如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo2.JPG&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后复制该.exe 文件所在的路径，添加至环境变量的 path 中，不知道环境变量配置的看文章最后图解。&lt;/p&gt;
+&lt;p&gt;配置成功后在命令窗口运行
+&lt;code&gt;hugo version&lt;/code&gt;
+若能成功出现版本号，则表示安装成功，如下图所示：
+&lt;img src=&#34;https://lovevin.github.io/hugo8.png&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2hugo-&#34;&gt;2.hugo 创建博客&lt;/h3&gt;
+&lt;p&gt;可按照 hugo 官方教程的创建步骤进行 &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo 快速搭建博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;具体创建代码和过程如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;hugo new site 路径/创建的文件名 //在该指定路径下创建一个 hugo 工作文件夹，不加路径默认在命令行当前目录下创建，运行代码如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo9.png&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建完成后的文件夹里的文件如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo10.JPG&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+&lt;p&gt;themes 文件夹里是放下载的博客主题，static 文件夹下放写博客需要的图片资源，content 文件夹下放写的博客内容&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;进入创建的文件里，安装主题，可去网上找到想要的 hugo 主题，用 hugo clone 到 themes 中即可，不同主题的配置方式不同，具体按照找到主题的方式配置，本主题选择的教程为&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane 主题教程&lt;/a&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;然后就根据选择的主题进行更改，每个主题要更改的方式不同，比较复杂。。。。我自己也没完全搞懂，待后续完善！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hugo 中创建一篇博客语句为&lt;code&gt;hugo new posts/my-first-post.md&lt;/code&gt;，md 文件的编写语言是 markdown 语言的语法。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在该文件夹下运行&lt;code&gt;hugo&lt;/code&gt;命令会生成一个 public 文件夹，该文件夹就是将你写的 md 文件转化为可以在网页上运行的 html、css 文件等，是可以完整发布在 github 的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;然后运行&lt;code&gt;hugo server&lt;/code&gt;或者&lt;code&gt;hugo server -D&lt;/code&gt;根据提示按住 ctrl 键点击生成的本地网址，预览生成的网页。注意要运行在 public 文件夹外的目录下&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt;：预览不包含草稿状态的页面&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hugo server -D&lt;/code&gt;：预览包含草稿状态的页面&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;发布到 github 的时候只发布 public 文件夹即可，该文件夹另存储一下，该文件夹是博客页面生成源码，public 丢失时，再 hugo 一下本文件夹即可再生成 public 文件夹。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;3&#34;&gt;3.环境变量配置图解&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo3.png&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo4.JPG&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo5.JPG&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo6.JPG&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovevin.github.io/hugo7.JPG&#34; alt=&#34;本图片&#34;&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

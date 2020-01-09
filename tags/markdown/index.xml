@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on LoveVin的博客</title>
+    <link>https://lovevin.github.io/tags/markdown/</link>
+    <description>Recent content in Markdown on LoveVin的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>LoveVin</copyright>
+    <lastBuildDate>Wed, 08 Jan 2020 12:15:31 +0800</lastBuildDate>
+    
+	<atom:link href="https://lovevin.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何使用GitHub直接预览Markdown文件</title>
+      <link>https://lovevin.github.io/post/github-preview-markdown/</link>
+      <pubDate>Wed, 08 Jan 2020 12:15:31 +0800</pubDate>
+      
+      <guid>https://lovevin.github.io/post/github-preview-markdown/</guid>
+      <description>GitHub 是可以直接预览 markdown 文件的，也就是说可以直接在 GitHub 上写博客，具体操作如下： 在 GitHub 新建一个仓库，并在新建的仓库点击新创建一个 README.md 文件 然后用 markdown 语法写 README.md 文</description>
+    </item>
+    
+  </channel>
+</rss>

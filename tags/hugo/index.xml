@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on LoveVin的博客</title>
+    <link>https://lovevin.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on LoveVin的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>LoveVin</copyright>
+    <lastBuildDate>Wed, 08 Jan 2020 11:54:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://lovevin.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何用hugo搭建个人博客</title>
+      <link>https://lovevin.github.io/post/how-to-use-hugo/</link>
+      <pubDate>Wed, 08 Jan 2020 11:54:33 +0800</pubDate>
+      
+      <guid>https://lovevin.github.io/post/how-to-use-hugo/</guid>
+      <description>1.hugo 的安装 方法一 去 hugo 官网按照教程找对应版本的安装方法 hugo 各系统安装 其他 windows 安装方法 直接在 hugo 的 github 里下载资源包hugo-github-release，</description>
+    </item>
+    
+  </channel>
+</rss>
